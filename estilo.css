@@ -1,0 +1,28 @@
+/*estrutura do site*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../Projeto_site_noticias_cidade/imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#topo {
+    height: 150px;
+    background: url(../Projeto_site_noticias_cidade/imagens/detalhe-topo.png) no-repeat right top;
+    border: 1px solid red;
+}
+
+.logo {
+    width:  152px;
+    height: 66px;
+    background: url(../Projeto_site_noticias_cidade/imagens/logo.png) no-repeat center;
+}
