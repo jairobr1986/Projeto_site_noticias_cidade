@@ -18,11 +18,60 @@ body {
 #topo {
     height: 150px;
     background: url(../Projeto_site_noticias_cidade/imagens/detalhe-topo.png) no-repeat right top;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .logo {
     width:  152px;
     height: 66px;
     background: url(../Projeto_site_noticias_cidade/imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/* BARRA DE NAVEGAÇÃO
+*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10033;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../Projeto_site_noticias_cidade/imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+ {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
 }
