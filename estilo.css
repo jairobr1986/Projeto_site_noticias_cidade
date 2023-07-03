@@ -96,8 +96,9 @@ body.fotos #navegacao a#fotos
 }
 
 #duas-colunas #primario {
-    width: 550px;
-   
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
 }
 
 #uma-colunas #primario {
