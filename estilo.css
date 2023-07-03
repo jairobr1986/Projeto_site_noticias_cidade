@@ -172,6 +172,13 @@ input {
     background: #fff;
 }
 
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10033;
+    border: 2px solid #870529;
+}
+
 /*RODAPE*/
 
 #container-rodape {
